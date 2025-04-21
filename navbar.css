@@ -1,0 +1,45 @@
+body {
+  background-color: black; /* Change background to black */
+  color: red; /* Set the default text color to red */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  margin-left: 400px;
+  position: relative;
+  margin-top: 10px;
+  top: 0%;
+  color: beige;
+  font-size: 20px;
+  display: flex;
+  margin-left: 40px;
+  justify-content: flex-end;
+}
+
+a {
+  margin-left: 100px;
+  color: red; /* Default text color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+a:visited {
+  color: red; /* Keep the color red for visited links */
+}
+
+a:hover {
+  color: white; /* Change to white when hovered */
+}
+
+a:active {
+  color: white; /* Change to white when clicked */
+}
+
+p {
+  font-size: 50px;
+  text-align: right;
+  color: brown;
+  margin-top: 350px;
+}

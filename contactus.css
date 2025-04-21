@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    background-color: black;
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    width: 100%;
+    background-color: red;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Contact Section */
+.contact-container {
+    margin-top: 100px; /* Space below navbar */
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Contact Info */
+.contact-info p span {
+    color: red; /* Phone number, address, and email in red */
+    font-weight: bold;
+}
+
+/* Social Media Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: red; /* Social media links in red */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: yellow;
+}

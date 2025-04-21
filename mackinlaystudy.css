@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    background-color: red;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Page Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 28px;
+    color: white;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin: 5px 0;
+}
+
+/* Courses Section */
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.course {
+    background: black;
+    color: red;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.course h2 {
+    font-size: 22px;
+    margin: 0;
+    color: white;
+}
+
+.course p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

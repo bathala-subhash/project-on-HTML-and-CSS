@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background-color: red;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .courses {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .course {
+            background-color: #222;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        .join-btn {
+            background-color: red;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .join-btn:hover {
+            background-color: darkred;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="mackinlaystudy.html">Mackinlay Study</a></li>
+            <li><a href="courseclub.html">Course Club</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+        
+    </nav>
+    
+    <!-- Page Header -->
+    <header>
+        <h1>Welcome to Course Club</h1>
+        <p>Explore our wide range of courses to enhance your skills and knowledge.</p>
+    </header>
+    
+    <!-- Courses Section -->
+    <section class="courses">
+        <div class="course">
+            <h2>Data Science & AI</h2>
+            <p>Learn Data Science, Machine Learning, and Artificial Intelligence with hands-on projects.</p>
+            <button class="join-btn" onclick="location.href='payment.html'">Join</button>
+        </div>
+
+        <div class="course">
+            <h2>Web Development</h2>
+            <p>Master front-end and back-end development, including HTML, CSS, JavaScript, and frameworks.</p>
+            <button class="join-btn" onclick="location.href='payment.html'">Join</button>
+        </div>
+
+        <div class="course">
+            <h2>Cybersecurity</h2>
+            <p>Understand ethical hacking, network security, and risk management strategies.</p>
+            <button class="join-btn" onclick="location.href='payment.html'">Join</button>
+        </div>
+
+        <div class="course">
+            <h2>Business & Finance</h2>
+            <p>Learn investment strategies, financial planning, and business management skills.</p>
+            <button class="join-btn" onclick="location.href='payment.html'">Join</button>
+        </div>
+
+        <div class="course">
+            <h2>Graphic Design</h2>
+            <p>Enhance your creativity with UI/UX, Adobe tools, and digital branding techniques.</p>
+            <button class="join-btn" onclick="location.href='payment.html'">Join</button>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mackinlay. All rights reserved.</p>
+    </footer>
+</body>
+</html>

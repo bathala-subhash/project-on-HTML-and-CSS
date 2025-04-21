@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Howgards</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        /* Basic styling */
+        body {
+            background-color: red; /* Background color */
+            color: black; /* Text color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar */
+        nav {
+            width: 100%;
+            background-color: black;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            color: yellow;
+        }
+
+        /* Logo Styling */
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            height: 50px; /* Adjust height as needed */
+        }
+
+        /* Main Content */
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .jumbotron {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .jumbotron h1 {
+            color: black;
+            font-size: 40px;
+        }
+
+        .lead {
+            font-size: 20px;
+        }
+
+        /* Blockquote */
+        blockquote {
+            border-left: 5px solid #ffc107;
+            padding-left: 20px;
+            margin: 20px auto;
+            width: 50%;
+        }
+
+        blockquote footer {
+            color: #ffc107;
+            font-style: italic;
+        }
+
+        /* Button */
+        .btn-primary {
+            background-color: #ffc107;
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff9800;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="mackinlaystudy.html">Mackinlay Study</a></li>
+            <li><a href="courseclub.html">Course Club</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+        <img src="mackinlay logo.jpg" alt="Mackinlay Logo" class="logo">
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Welcome to Mackinlay</h1>
+            <p class="lead">Empowering knowledge and innovation.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2>What Our Students Say</h2>
+                <blockquote class="blockquote">
+                    <p class="mb-0">"Mackinlay has changed my life! The courses are top-notch."</p>
+                    <footer class="blockquote-footer"></footer>
+                </blockquote>
+                <blockquote class="blockquote">
+                    <p class="mb-0">"An amazing learning platform with great resources."</p>
+                    <footer class="blockquote-footer"></footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

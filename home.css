@@ -1,0 +1,71 @@
+/* Set background color to red */
+body {
+    background-color: red;
+    color: black; /* Default text color to black */
+    background-image: none; /* Remove background image */
+    font-family: Arial, sans-serif;
+}
+
+/* Jumbotron Section */
+
+
+.jumbotron h1, .jumbotron p {
+    color: black; /* Changed text color to black */
+}
+
+/* Container Padding */
+.container {
+    padding-top: 30px;
+}
+
+/* Blockquote Styling */
+blockquote {
+    border-left: 5px solid #ffc107;
+    padding-left: 20px;
+}
+
+blockquote footer {
+    color: #ffc107;
+    font-style: italic;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: black; /* Changed button text color to black */
+}
+
+.btn-primary:hover {
+    background-color: #ff9800;
+    border-color: #ff9800;
+}
+
+/* Navbar Styles */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    margin-left: 400px;
+    position: relative;
+    margin-top: 10px;
+    top: 0%;
+    color: black; /* Changed navbar text color to black */
+    font-size: 20px;
+    display: flex;
+    margin-left: 40px;
+    justify-content: flex-end;
+}
+
+/* Navbar Links */
+a {
+    margin-left: 100px;
+    color: black; /* Changed link color to black */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: yellow; /* Added hover effect */
+}
